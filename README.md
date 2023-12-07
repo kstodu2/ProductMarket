@@ -22,6 +22,13 @@ Product Page:
 Idea:
 1) Create a simple Facebook's Marketplace/craigslist copy.
 
+Features:
+1) Create account, add a product to the page.
+2) Admin accounts able to delete or edit product pages.
+3) Upload images of the product to cloudinary(appjson cloudinary information removed)
+4) Check dashboard for listing of your own products.
+
+
 Future To-Do:
 1) Implement Cart -> Checkout Page
 2) Implement Geolocations, validate ZipCodes so that user's can see product on sale in their or specified areas.

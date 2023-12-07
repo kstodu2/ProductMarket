@@ -1,0 +1,32 @@
+﻿@using ProductMarket.ViewModels
+@using ProductMarket.Data.Enum
+@model Product
+
+@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+}
+<h1>Confirm to delete this product</h1>
+
+<div class="row justify-content-center">
+    <div class="col-md-6">
+        <form method="post" asp-action="Delete">
+            <input type="hidden" asp-for="ProductId" />
+
+            <div class="form-group">
+                <label asp-for="ProductName">Product Name</label>
+                <input asp-for="ProductName" class="form-control" readonly>
+            </div>
+            <div class="form-group">
+                <label asp-for="ProductDescription">Product Description</label>
+                <input asp-for="ProductDescription" class="form-control" readonly>
+            </div>
+
+
+            <div class="form-group">
+                <input type="submit" value="Confirm" class="btn btn-danger float-right mt-3" />
+            </div>
+        </form>
+    </div>
+</div>

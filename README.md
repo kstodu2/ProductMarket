@@ -11,12 +11,13 @@ Objectives:
 
    
 Main Page:
-![](Images(github)/mainPage.png)
+![mainPage](https://github.com/kstodu2/ProductMarket/assets/83611423/68b2eb59-74d2-471b-8452-1056bdf9d1c2)
+
 
 
 
 Product Page:
-![](Images(github)/Product%20Page.png)
+![Product Page](https://github.com/kstodu2/ProductMarket/assets/83611423/f1fd6287-7511-4768-afed-d984956c7894)
 
 Idea:
 1) Create a simple Facebook's Marketplace/craigslist copy.
